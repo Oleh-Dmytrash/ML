@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    max-height: 100%;
+    font-family: 'Roboto', sans-serif;
+    color: #F9F9F9;
+    background-color: #0a3230;
+}
+
+
+/* Navbar */
+#c4Navbar{
+    background-color: burlywood;
+}
+.c4-nav-link,
+.c4-nav-link-disabled {
+    font-size: 1.1rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #E3E3E3 !important;
+}
+.c4-nav-link:hover{
+    transition: 0.2s;
+    color: rgb(144, 135, 135) !important;
+}
+.c4-nav-link-disabled {
+    cursor: default;
+    border-bottom: 1px solid #fffdfd;
+}
+.c4-nav-btn {
+    background-color: #262626;
+    border: 1px solid #FAFCFF;
+    font-weight: 500;
+    border-radius: 4px;
+}
+.c4-nav-btn:hover {
+    transition: 0.6s;
+    color: #262626 !important;
+    background-color: #FFF;
+    border: 1px solid #020202;
+}
+
+
+
+/* Home page: Left content */
+.matrix-home-title {
+    font-weight: 500;
+    font-size: 2.3rem;
+}
+.matrix-home-description {
+    font-size: 1.5rem;
+}
+
+.matrix-home-table-table th,
+.matrix-home-table-table td {
+    color: white;
+    text-align: center;
+}
+
+.matrix-home-table-title {
+    font-size: 1.5rem;
+}
+
+.matrix-home-table-table {
+    font-size: 1.3rem;
+}
+
+.custom-radio {
+    font-size: 1.5rem;
+}
+
+.custom-checkbox {
+    font-size: 1.9rem;
+}
+
+.btn-disease {
+    font-size: 1.4rem;
+}
+
+.matrix-home-table-title {
+    font-size: 1.9rem;
+}
+
+.check0 {
+    color: red;
+}
+.check1 {
+    color: green;
+}
+
+.medical-result {
+    font-size: 2.4rem;
+}
+
+
+
+/* Lab5 */
+.array {
+    color: #ffffff;
+
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.lab_table {
+    border: 1px solid white;
+
+    overflow: scroll;
+}
+
+.table-item {
+    border: 1px solid white;
+}
+
+.lab5result {
+    font-size: 1.5rem;
+}
